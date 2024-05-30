@@ -23,6 +23,11 @@ body {
   color: $darkGray;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -150,9 +155,10 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
+// .wrapper-masthead {
+//   margin-bottom: 50px;
+// }
+
 
 .masthead {
   padding: 20px 0;
@@ -287,6 +293,43 @@ footer {
   margin-left: 1.5vw;
   margin-right: 1.5vw;
 }
+
+
+
+.wrapper-masthead, .wrapper-footer {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  // max-width: 1200px;
+  margin: 0 auto;
+  // padding-left: 5vw;
+  // padding-right: 5vw;
+
+  @include mobile {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+#main {
+  flex: 1;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper-footer {
+  background: #f8f8f8; /* Adjust as needed */
+  padding: 0px 0; /* Adjust as needed */
+}
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
