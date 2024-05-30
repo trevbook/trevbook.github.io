@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey, I'm Trevor! I'm interested in data science, artificial intelligence, programming, music, and a bunch of stuff in between. This site will chronicle various projects of mine. 
 
-### More Information
+---
 
-A place to include any other types of information that you'd like to include about yourself.
+***SITE IN PROGRESS***
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+*This is an early version of my blog, trevbook.com. I want to eventually build a more custom-made site, but in order to get things moving quickly, I decided to use Jekyll & GitHub Pages. (This theme is [the Jekyll Now theme](https://www.jekyllnow.com/about/).)*
